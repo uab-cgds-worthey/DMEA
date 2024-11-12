@@ -551,7 +551,7 @@ drugSEA <- function(data, gmt = NULL, drug = "Drug",
           x = c(0, pos.GeneSetA, ngenes),
           y = c(0, gsea.es.profile.A, 0)
         ),
-        color = color.palette[1], size = 1
+        color = "firebrick", size = 1
       ) +
       ggplot2::labs(x = NULL, y = "ES", title = myName) +
       ggplot2::scale_x_continuous(expand = c(0, 0)) +
